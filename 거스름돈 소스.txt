@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class STart{
+    public static void main(String[] args){
+
+        int[] coin = { 10000,5000,1000,500,100,50,10};
+        int leftcoin = 9;
+        System.out.println("금액을 입력하세여");
+        Scanner price = new Scanner(System.in);
+
+        int pay = price.nextInt();
+
+        for(int i=0; i<coin.length; i++){
+            if(pay/coin[i]>0){
+                System.out.println(coin[i] + "원" +pay/coin[i]);
+                pay%= coin[i];
+                if(leftcoin >= pay){
+                    leftcoin = pay;
+                }
+                }
+        }
+        System.out.println("남은돈 :");
+        System.out.println(leftcoin);
+
+    }
+}
