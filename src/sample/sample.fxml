@@ -46,5 +46,10 @@
       <Text layoutX="129.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6000원" />
       <Text layoutX="449.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="원" />
       <TextField fx:id="tf4" layoutX="271.0" layoutY="400.0" text="0" />
+      <Button fx:id="confirm" layoutX="529.0" layoutY="398.0" mnemonicParsing="false" onAction="#confirm" prefHeight="25.0" prefWidth="70.0" text="확인" />
+      <Text fx:id="t1" layoutX="708.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 20;" text="거스름돈" />
+      <TextField fx:id="tf5" layoutX="271.0" layoutY="515.0" />
+      <Text layoutX="460.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="원" />
+      <Text layoutX="129.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-size: 30;" text="투입 금액:" />
    </children>
 </AnchorPane>
