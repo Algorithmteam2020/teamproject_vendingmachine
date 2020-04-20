@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\2020JAVA\vendingmachine\.metadata\.plugins\org.eclipse.jdt.core
+2811475816.index
+2135000434.index
+3657989291.index

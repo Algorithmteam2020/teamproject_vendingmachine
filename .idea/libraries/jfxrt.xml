@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jfxrt">
+    <CLASSES>
+      <root url="jar://D:/_temp_matlab_R2019b_win64/sys/java/jre/win64/jre/lib/ext/jfxrt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
